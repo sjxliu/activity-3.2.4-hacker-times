@@ -1,1 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+.date {
+    font-family: sans-serif ;
+    text-align: left;
+
+
+}
+
+h2, h4 {
+    font-family: Roboto Slab;
+}
+
+header {
+    font-family: Abril Fatface;
+    text-align: center;
+}
+
+body {
+    font-family: Source Sans Pro;
+    background-color: #eee;
+    border-color: #eee;
+
+}
+
+.newspaper-container {
+    background-color:white;
+    box-shadow: #ddd;
+    width: 700px;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 3em auto;
+}
+
+h5 {
+    color: #dd3232;
+    font-weight: bolder;
+}
+
+nav {
+    border-top: solid 1px #777;
+    border-bottom: solid 1px #777;
+    text-align: center;
+    padding: .5em;
+}
+
+nav a{
+    color: #777;
+   text-decoration: none;
+    
+}
+
+ul {
+    list-style: none;
+    padding:0em;
+    margin:0%;
+    
+}
+
+li {
+    display: inline-block;
+padding: 0 0.125em;
+}
+
+p{
+    padding-left: 0.5em;
+    text-align: justify;
+}
+
+.more-articles{ 
+    border-top: solid 1px #777;
+    text-align: justify;
+}
+section {
+  
+   width: 45%;
+   display: inline-block;
+   margin-left: 1em;
+   margin-right: 1em;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-row-gap: 10px;
+  }
+
+  #headless {
+      width: 300px;
+      height: 200px;
+  }
+
+  #woman {
+      widith: 300px;
+      height: 200px;
+  }
+
+  #grandpa     {
+      widith: 300px;
+  height: 200px;
+}
